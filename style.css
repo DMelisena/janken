@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+}
+.title{
+    font-size: 50px;
+    font-weight: 900;
+    
+    text-align:center;
+    color:white;
+    background-color:black;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    background-image: url("gon-rage.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:50px;
+}
+
+.choices{
+    display:flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    justify-content: space-around;
+    background-color: black;
+}
+.choice{
+    color:white;
+    background-repeat: no-repeat;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    justify-content: center;
+    margin: 10px 0; 
+}
+.left{
+    background-image: url("jajanken-rock.gif");
+    background-size: cover;
+}
+.middle{
+    background-image: url("jajanken-paper.gif");
+    background-size: cover;
+}
+.right{
+    background-image: url("jajanken-scissor.gif");
+    background-size: cover;
+}
