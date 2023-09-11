@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <title>Evil Fist</title>
 </head>
 <body>
     <div>
@@ -13,14 +12,21 @@
         <p class="Enemy">Enemy specification</p>
         <p class="task">Choose Skill to defeat enemy</p>
     </div>
-    
+    <div class="status-bar">
+        <div class="your-div">
+            <p id="yourhp"> 3</p>
+        </div>
+        <div class="enemy-div">
+            <p id="hpbar"> HP = 100 </p>
+        </div>
+    </div>
     <div class="choices">
-        <ul class="choice left">Rock</ul>
-        <ul class="choice middle">Paper</ul>
-        <ul class="choice right">Scissor</ul>
+        <ul class="choice left"  onclick="attackRock()">Rock</ul>
+        <ul class="choice middle"onclick="attackPaper()">Paper</ul>
+        <ul class="choice right" onclick="attackScissor()">Scissor</ul>
     </div>
     <script src="game.js">
-        
+
     </script>
 </body>
 </html>

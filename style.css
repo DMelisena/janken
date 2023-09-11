@@ -17,6 +17,11 @@ body{
     background-position: center;
     padding:50px;
 }
+.enemy-div{
+    background-image: url(enemy2.gif);
+    padding:100px;
+    background-size: cover;
+}
 
 .choices{
     display:flex;
