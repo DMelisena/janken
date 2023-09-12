@@ -17,9 +17,19 @@ body{
     background-position: center;
     padding:50px;
 }
+.status-bar{
+    display: flex;
+}
+.your-div{
+    background-image: url(gon.gif);
+    padding:200px;
+    width:50%;
+    background-size: cover;
+}
 .enemy-div{
     background-image: url(enemy2.gif);
-    padding:100px;
+    padding:200px;
+    width:50%;
     background-size: cover;
 }
 
